@@ -1,0 +1,11 @@
+@media only screen and (min-width: 321px) {
+  h1 {
+    color: red; } }
+@media only screen and (min-width: 768px) {
+  h1 {
+    color: blue; } }
+@media only screen and (min-width: 1224px) {
+  h1 {
+    color: pink; } }
+
+/*# sourceMappingURL=mysass.css.map */
