@@ -78,6 +78,10 @@ main h2 {
   margin-left: 2%; }
 main img {
   text-align: left; }
+main .image2 {
+  display: none; }
+main .image3 {
+  display: none; }
 
 footer {
   background-color: #e5e5e5; }
@@ -93,11 +97,29 @@ footer {
   display: table; }
 
 @media only screen and (min-width: 768px) {
-  h1 {
-    color: red; }
+  nav li {
+    width: 20%;
+    padding: 1rem;
+    border-left: 2px solid black; }
+  nav li:nth-child(1) {
+    border-right: none;
+    border-left: none; }
 
-  nav ul {
-    background-color: red; } }
+  main img {
+    text-align: left; }
+  main .image2 {
+    display: block; }
+  main .image1 {
+    display: none; } }
 @media only screen and (min-width: 1224px) {
-  h1 {
-    color: pink; } }
+  body {
+    margin: 0px 4%; }
+
+  main img {
+    text-align: left; }
+  main .image1 {
+    display: none; }
+  main .image2 {
+    display: none; }
+  main .image3 {
+    display: block; } }

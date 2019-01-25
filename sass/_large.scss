@@ -1,3 +1,22 @@
-h1 {
-    color: pink;
+body{
+    margin: 0px 4%;
+}
+
+main {
+
+    img{
+        text-align: left;
+    }
+
+    .image1{
+        display: none;
+    }
+
+    .image2{
+        display: none;
+    }
+
+    .image3{
+        display: block;
+    }
 }
